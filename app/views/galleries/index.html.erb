@@ -1,7 +1,9 @@
   <div class="container-main">
     <div id="card-enter">
-        <%= link_to gallery_path(@gallery), class: 'text-decoration-none' do %>
+      <% @galleries.each do |gallery| %>
+        <%= link_to gallery_path(gallery), class: 'text-decoration-none' do %>
         <h1>enter</h1>
+      <% end %>
     <% end %>
   </div>
 </div>
