@@ -1,0 +1,14 @@
+<div class="all">
+<div id="title" class="position-relative text-center mt-5 mb-5">
+  <h1>portfolio</h1>
+</div>
+  <div class="container-items">
+    <div class="card-image">
+        <% @items.each do |item| %>
+        <%= image_tag item.img_url, alt: "item" %>
+      <% end %>
+    </div>
+      </div>
+    </div>
+  </div>
+</div>

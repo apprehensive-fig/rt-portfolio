@@ -1,0 +1,14 @@
+.card-image {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 20px;
+  justify-content: space-between;
+  gap: 20px;
+  flex-direction: column;
+}
+
+#card-enter {
+  text-align: center;
+  padding-top: 350px;
+}
