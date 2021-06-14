@@ -4,3 +4,8 @@
 
 $body-font: 'Bitter', serif;
 $headers-font: 'Alfa Slab One', cursive;
+
+p {
+  font-color: #ccc;
+  font-family: $body-font;
+}
